@@ -4,8 +4,6 @@ Turn images into animated rotating gifs.
 ## Usage
 `python ./makeGif.py [PathToImage]`
 
-Replace `./test.jpg` with the filename of your image. 
-
 ## Output
 ![](http://imgur.com/download/xLj8ljQ)
 
