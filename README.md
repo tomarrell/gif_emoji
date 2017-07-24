@@ -4,6 +4,8 @@ Turn images into animated rotating gifs.
 ## Usage
 `python ./makeGif.py [PathToImage]`
 
+The image will be automatically cropped to a square based on the smallest dimension in the horizontal or vertical direction. For best results, have the subject of the image in the center of the smallest-dimension-cropped-square from the top-left corner.
+
 ## Output
 ![](http://imgur.com/download/xLj8ljQ)
 
