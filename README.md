@@ -16,3 +16,6 @@ Currently the output is fixed to a `32x32` GIF with `36 frames` rotated by `10˚
 This was written to automatically generate rotating animations of people for use as Slack emojis. More info about custom Slack emojis here: 
 
 https://get.slack.help/hc/en-us/articles/206870177-Create-custom-emoji.
+
+## License
+Licensed under the MIT license. Free for personal, commercial and derivative works.
