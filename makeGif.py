@@ -48,7 +48,6 @@ def main():
       (offset, offset, maxWidth + offset, maxWidth + offset)
     ).resize((32, 32), resample=Image.BICUBIC)
 
-    #  cropped.save('test/imageFrag_{}.png'.format(i), optimize=True)
     buff = StringIO.StringIO()
     cropped.save(buff, 'png', optimize=True)
     imageArray.append(Image.open(buff))
