@@ -4,9 +4,9 @@ Turn images into animated rotating gifs.
 ## Dependencies
 This package depends on the Python image library [Pillow](https://pillow.readthedocs.io/en/5.0.0/installation.html).
 
-Please make sure to run the following command **before** using this library to install the necessary dependency.
-
 ```pip install Pillow``` 
+
+Please make sure you have the required dependencies above installed before using the library.
 
 ## Usage
 `python ./makeGif.py [PathToImage]`
