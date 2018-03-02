@@ -1,6 +1,11 @@
 # gif_emoji
 Turn images into animated rotating gifs.
 
+## Dependencies
+This package depends on the Python image library Pillow.
+
+Please make sure to run the command ```pip install Pillow``` before using this library to install the necessary dependency.
+
 ## Usage
 `python ./makeGif.py [PathToImage]`
 
