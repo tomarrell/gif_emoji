@@ -11,6 +11,7 @@ import math as Math
 
 FRAMES = 36
 DEGREES = 10
+SIZE = 32
 
 # Make the initial image a square. Find the smallest size
 # and crop to it to a square based on that from the top left corner.
@@ -47,7 +48,7 @@ def main():
     newIm = newIm.rotate(DEGREES * i, resample=Image.BICUBIC)
     cropped = newIm.crop(
       (offset, offset, maxWidth + offset, maxWidth + offset)
-    ).resize((32, 32), resample=Image.BICUBIC)
+    ).resize((SIZE, SIZE), resample=Image.BICUBIC)
 
     buff = StringIO.StringIO()
     cropped.save(buff, 'png', optimize=True)
